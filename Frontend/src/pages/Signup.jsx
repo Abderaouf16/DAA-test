@@ -1,5 +1,5 @@
 import React from "react";
-import signup from "../components/CSS/signup.css";
+import  "../components/CSS/Signup.css";
 import wood from "../assets/wood.jpg";
 import { FcGoogle } from "react-icons/fc";
 import Header from "../components/Header/Header";

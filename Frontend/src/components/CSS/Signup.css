@@ -1,0 +1,45 @@
+
+.container{
+   height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+    
+}
+.section_auth{
+  background-color: white;
+}
+
+._h2{
+    font-family: 'Devious Sans', Arial, Helvetica, sans-serif;
+       font-size: 28px;
+    font-weight:800;
+    color: black;
+    margin: 15px;
+}
+@media (min-width:821px) {
+   
+    .container-left2_Signup{
+      flex-basis: 50%;
+     
+      background-image: url(../../assets/building3.jpg);
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      border-top-left-radius: 16px;
+      border-bottom-left-radius: 16px;
+    }
+    .container-right2{
+      flex-basis: 50%;
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+    }
+   .father_container{
+    width: 65%;
+    height: 95%;
+   }
+   .big container{
+    padding: 20px;
+   }
+  }
+

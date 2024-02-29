@@ -1,0 +1,47 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "DM Serif Display", serif;
+  line-height: 1;
+  font-weight: var(--fw-400);
+}
+
+
+.title1 {
+  font-size: 4rem;
+  position: relative;
+  @media (max-width: 767px) {
+    font-size: 3rem;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    width: 10rem;
+    height: 2px;
+    top: -5rem;
+    background-color: var(--white);
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+  }
+}
+.title1--mod {
+  &::before {
+    content: "";
+    background-color: var(--dark-violet);
+    opacity: 0.6;
+  }
+}
+
+h3,
+.title3 {
+  font-size: 2rem;
+}
+
+p {
+  padding: 2rem 0;
+  line-height: 1.5;
+}

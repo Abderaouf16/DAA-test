@@ -1,0 +1,61 @@
+
+.body1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+}
+.section_auth{
+  background-color: white;
+ }
+
+.login-from{
+  display: flex;
+  flex-direction: column;
+  background: rgba(0, 0 , 0, 0.8);
+  box-shadow: 0 0.4px 0.4px rgba(128, 128, 128, 0.109);
+  padding: 40px 70px;
+  border-radius: 10px;
+  color: white;
+
+
+}
+.login-from h1{
+  margin:  0 0 15px 0;
+}
+.login-from .form-input-material{
+  margin: 12px 0;
+}
+.login-from .btn{
+  width: 100%;
+  margin: 18px 0 9px 0;
+}
+.btn{
+  padding: 8px 20px;
+  border-radius: 0;
+  overflow: hidden;
+
+}
+.btn:hover{
+  
+  box-shadow: 0 0 20px 10px rgba(51, 152, 219,0.5);
+}
+.btn:hover::before{
+  transform: translateX(100%);
+}
+.form-input-material input{
+ color: white;
+}
+.form-input-material{
+--input-default-border-color: white;
+--input-border-bottom-color: white;
+
+}
+input{
+  background-color: #4b4168;
+  outline: none;
+}
+
+
+

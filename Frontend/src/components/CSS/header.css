@@ -1,0 +1,83 @@
+*,
+*::after,
+*::before {
+margin: 0;
+box-sizing: border-box;
+}
+header{
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);}
+.nav {
+    height: 8vh;
+
+    
+  }
+  .title{
+    font-size: 27px;
+    font-family: "DM Serif Display", serif;
+  }
+  .dropeDown{
+    position: absolute;
+    width: 115px;
+    background-color:white;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px;
+    top: 70px;
+    z-index: 999;
+  }
+  .pofileSection{
+    background-color: hsl(256, 26%, 20%) ;
+  }
+  
+  
+  /* */
+  .signupBtn{
+    background-color: hsl(256, 26%, 20%);
+  }
+
+.nav_items {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  gap: 3rem;
+}
+.nav_items li:hover {
+  border-bottom: 2px solid black;
+  transition: width 0.3s ease;
+}
+.hamborger{
+  display: none;
+  width: 20%;
+  margin-left: 20px;
+ 
+}
+@media (max-width: 767px) {
+  .title{
+    font-size: 23px;
+  }
+  .hamborger{
+    display: block;
+  
+  }
+  .nav_items{
+    display: none;
+  }
+.active{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  max-width: 100%;
+  z-index: 999;
+  background-color: white;
+  height: 40vh;
+  top: 5rem;
+  padding: 40px;
+  
+  
+}
+
+}
